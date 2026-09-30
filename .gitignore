@@ -1,0 +1,58 @@
+# ============================================
+# RAW & PROCESSED HEAVY DATA
+# ============================================
+data/raw/
+data/processed/
+data/features/samples_full.parquet
+data/features/*_test*
+data/features/*_deploy*
+
+# ============================================
+# INTERMEDIATE CHECKPOINTS (Keep only stage3_best.pt)
+# ============================================
+outputs/checkpoints/*.pt
+!outputs/checkpoints/stage3_best.pt
+
+# ============================================
+# HEAVY BASELINE MODEL DUMPS (~68 MB, not used by website)
+# ============================================
+outputs/baselines/xgb_reg_*.json
+outputs/baselines/xgb_clf_*.json
+
+# ============================================
+# Python cache / bytecode
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# ============================================
+# Virtual environments
+# ============================================
+venv/
+env/
+.venv/
+.env/
+
+# ============================================
+# IDE / Editor files
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# Jupyter Notebook checkpoints & temp logs
+# ============================================
+.ipynb_checkpoints/
+*.log
+*.tmp
+*.bak
+wandb/
+runs/
+lightning_logs/

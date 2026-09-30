@@ -1,0 +1,23 @@
+{
+  "cloud_cover_high_mean_gfs": 0.0,
+  "cloud_cover_low_mean_gfs": 0.0,
+  "cloud_cover_mean_gfs": 92.16666666666667,
+  "cloud_cover_mid_mean_gfs": 0.0,
+  "precipitation_sum_gfs": 2.6,
+  "pressure_msl_mean_gfs": 1002.7583333333336,
+  "rain_sum_gfs": 0.0,
+  "relative_humidity_2m_mean_gfs": 79.58333333333333,
+  "snowfall_sum_gfs": 0.0,
+  "surface_pressure_mean_gfs": 981.5958333333334,
+  "temperature_2m_max_gfs": 30.4,
+  "temperature_2m_mean_gfs": 27.000000000000004,
+  "temperature_2m_min_gfs": 24.6,
+  "wind100_u_mean_gfs": 4.06978787219875,
+  "wind100_v_mean_gfs": 2.796762689822394,
+  "wind10_u_mean_gfs": 2.7022959211157622,
+  "wind10_v_mean_gfs": 1.9352552033267973,
+  "wind_gusts_10m_max_gfs": 25.9,
+  "wind_speed_100m_mean_gfs": 14.358333333333334,
+  "wind_speed_10m_max_gfs": 17.1,
+  "wind_speed_10m_mean_gfs": 10.191666666666665
+}

@@ -1,0 +1,120 @@
+paths:
+  raw_gfs: data/raw/forecast_gfs_2024_2025_list.csv
+  raw_era5: data/raw/truth_era5_2024_2025_list.csv
+  points: data/raw/india_points.csv
+  processed: data/processed
+  features: data/features
+  outputs: outputs
+
+columns:            # names inside the raw CSVs
+  id: point_id
+  time: datetime
+  lead: lead_day
+  lat: latitude
+  lon: longitude
+  zone: zone
+  label: label
+
+daily:              # hourly -> daily aggregation (var: [stats]); all-null columns are dropped automatically
+  expected_hours: 24
+  wind_levels: [10, 100]
+  agg:
+    temperature_2m: [mean, max, min]
+    relative_humidity_2m: [mean]
+    precipitation: [sum]
+    rain: [sum]
+    snowfall: [sum]
+    pressure_msl: [mean]
+    surface_pressure: [mean]
+    cloud_cover: [mean]
+    cloud_cover_low: [mean]
+    cloud_cover_mid: [mean]
+    cloud_cover_high: [mean]
+    wind_speed_10m: [mean, max]
+    wind_speed_100m: [mean]
+    wind_gusts_10m: [max]
+
+leads:
+  target: [1, 2, 3, 4, 5, 6, 7]
+
+features:
+  context_days: 7                # ERA5 history days before the init day (t0-7 .. t0-1)
+  hist_windows: [3, 7]           # realised-error windows (<= context_days)
+  core_vars: [temperature_2m_mean, relative_humidity_2m_mean, precipitation_sum, pressure_msl_mean,
+              wind_speed_10m_mean, u10_mean, v10_mean, cloud_cover_mean]
+  spatial_vars: [temperature_2m_mean, relative_humidity_2m_mean, precipitation_sum, pressure_msl_mean,
+                 wind_speed_10m_mean, u10_mean, v10_mean]
+
+graph:
+  k: auto                        # auto | 4 | 8 | 12
+  k_candidates: [4, 8, 12]
+  k_max: 8                       # VRAM guard
+  median_dist_deg: 1.0           # auto rule: largest k whose median k-th neighbour distance <= this
+  n_regions: 64                  # compressed spatial tokens (KMeans on lat/lon)
+  link_km: 220                   # max edge length when clustering error-prone cells
+  grad_ridge: 0.05
+
+targets:
+  variables: [temperature_2m_mean, relative_humidity_2m_mean, precipitation_sum, pressure_msl_mean,
+              wind_speed_10m_mean, wind_gusts_10m_max, cloud_cover_mean]
+  weights: null                  # null = equal weights in the normalised composite
+  bust_quantiles: [0.90, 0.95]
+  default_quantile: 0.90         # replaced by scripts/03 (chosen on validation only)
+
+splits:                          # INIT dates (inclusive). gap between splits must exceed max lead (7 d)
+  train: ["2024-06-01", "2024-09-30"]
+  val:   ["2025-06-01", "2025-07-10"]
+  calib: ["2025-07-18", "2025-08-10"]
+  test:  ["2025-08-18", "2025-09-30"]
+
+model:
+  d_node: 64
+  d_model: 128
+  heads: 4
+  gat_layers: 2
+  enc_layers: 3
+  dec_layers: 2
+  ff_mult: 4
+  dropout: 0.15
+  geo_freqs: 6
+  feedback: true                 # true: autoregressive decoder (region-level feedback of previous lead); false: parallel
+
+train:
+  batch_size: 8                  # auto-halved on CUDA OOM
+  epochs_stage2: 40
+  epochs_stage3: 30
+  lr: 2.0e-4
+  lr_stage3: 1.0e-4
+  weight_decay: 1.0e-3
+  warmup_epochs: 2
+  grad_clip: 1.0
+  patience: 8
+  amp: true
+  huber_delta: 1.0
+  aux_weight: 0.3
+  lambda_err: 1.0
+  lambda_bust: 0.5
+  bust_loss: bce                 # bce | focal
+  focal_gamma: 2.0
+  ss_max_prob: 0.5               # scheduled sampling: prob. of an autoregressive training pass
+  ss_ramp_epochs: 15
+  seed: 42
+
+xgb:
+  device: auto                   # auto | cuda | cpu
+  max_depth: 8
+  eta: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.6
+  min_child_weight: 20
+  n_rounds: 1500
+  early_stopping: 60
+
+calibration:
+  methods: [none, platt, isotonic]
+  cv_folds: 4
+
+risk:
+  edges: [0.15, 0.35, 0.60]      # calibrated P(bust) -> low / moderate / high / very_high
+  labels: [low, moderate, high, very_high]
+  min_cells: 3                   # min cells for an error-prone area

@@ -1,0 +1,366 @@
+{
+  "1": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.056195309739630016
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.03288347905478251
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.023802465381996714
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.021169635695043272
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.0194117749930569
+    },
+    {
+      "feature": "precipitation_sum_gfs",
+      "factor": "precipitation anomaly",
+      "importance": 0.01020961697109124
+    },
+    {
+      "feature": "temperature_2m_mean_rollmean7",
+      "factor": "temperature tendency",
+      "importance": 0.00645489221957859
+    },
+    {
+      "feature": "temperature_2m_mean_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.006281620183539144
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.00582336328876254
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.005255826094866911
+    }
+  ],
+  "2": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.04187113242739521
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.031479970769281176
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.022035791202346104
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.021443125731852964
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.019013862211092487
+    },
+    {
+      "feature": "precipitation_sum_gfs",
+      "factor": "precipitation anomaly",
+      "importance": 0.008354270752807712
+    },
+    {
+      "feature": "temperature_2m_mean_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.006043477776937528
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.005570319442146404
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.003780373736471376
+    },
+    {
+      "feature": "temperature_2m_mean_rollmean7",
+      "factor": "temperature tendency",
+      "importance": 0.003747788876263347
+    }
+  ],
+  "3": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.03889603662603728
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.022429918724593316
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.019789577089373334
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.018472931730240706
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.014376662857509409
+    },
+    {
+      "feature": "precipitation_sum_gfs",
+      "factor": "precipitation anomaly",
+      "importance": 0.007643523141979308
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.004999924806860257
+    },
+    {
+      "feature": "pressure_msl_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.0047809835349389655
+    },
+    {
+      "feature": "temperature_2m_mean_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.004387830076264693
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.003956355397869893
+    }
+  ],
+  "4": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.033835739898978576
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.026802677263147456
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.01658859892768829
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.011792818107478448
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.011121586512094467
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.007601544416556904
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.004039029745737377
+    },
+    {
+      "feature": "pressure_msl_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.0034996943997403053
+    },
+    {
+      "feature": "precipitation_sum_gfs",
+      "factor": "precipitation anomaly",
+      "importance": 0.0031897207524948625
+    },
+    {
+      "feature": "pressure_msl_mean_anomaly",
+      "factor": "pressure tendency",
+      "importance": 0.0026113006042906227
+    }
+  ],
+  "5": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.03457611794919268
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.023128381443363367
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.013041661611276251
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.00896343655767467
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.006854988830979408
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.006213354505137364
+    },
+    {
+      "feature": "pressure_msl_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.0054462531770724356
+    },
+    {
+      "feature": "relative_humidity_2m_mean_localmean",
+      "factor": "humidity anomaly",
+      "importance": 0.0030886483528110463
+    },
+    {
+      "feature": "wind10_u_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.0024754084818292164
+    },
+    {
+      "feature": "wind_speed_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.002025181947361526
+    }
+  ],
+  "6": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.03467931220314579
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.022441475897658075
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.010489984828232162
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.006991517712254314
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.006176521930378759
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.005418345641197692
+    },
+    {
+      "feature": "pressure_msl_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.0050974373479484355
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.0038022534869618096
+    },
+    {
+      "feature": "wind10_u_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.002814473249603794
+    },
+    {
+      "feature": "temperature_2m_mean_rollmean7",
+      "factor": "temperature tendency",
+      "importance": 0.0017174381334885414
+    }
+  ],
+  "7": [
+    {
+      "feature": "surface_pressure_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.03269260059574507
+    },
+    {
+      "feature": "wind_speed_10m_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.020174424540840213
+    },
+    {
+      "feature": "relative_humidity_2m_mean_gfs",
+      "factor": "humidity anomaly",
+      "importance": 0.019991140683693648
+    },
+    {
+      "feature": "cloud_cover_mean_gfs",
+      "factor": "cloud_cover_mean_gfs",
+      "importance": 0.011326872709713904
+    },
+    {
+      "feature": "wind_gusts_10m_max_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.01093887870859674
+    },
+    {
+      "feature": "pressure_msl_mean_gfs",
+      "factor": "pressure tendency",
+      "importance": 0.005950675789353899
+    },
+    {
+      "feature": "temperature_2m_mean_localmean",
+      "factor": "temperature tendency",
+      "importance": 0.005253813183430656
+    },
+    {
+      "feature": "temperature_2m_max_gfs",
+      "factor": "temperature tendency",
+      "importance": 0.0034711135320048105
+    },
+    {
+      "feature": "wind10_u_mean_gfs",
+      "factor": "wind change / disagreement",
+      "importance": 0.0032687705301692738
+    },
+    {
+      "feature": "relative_humidity_2m_mean_localmean",
+      "factor": "humidity anomaly",
+      "importance": 0.002736835807786392
+    }
+  ]
+}

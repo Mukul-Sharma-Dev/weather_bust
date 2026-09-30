@@ -1,0 +1,316 @@
+{
+  "graph": {
+    "spatial_representation": "graph_attention (irregular points)",
+    "k": 8,
+    "k_search": {
+      "4": 0.4007024383587708,
+      "8": 0.6079956372326982,
+      "12": 0.7781320924861692
+    },
+    "n_regions": 64,
+    "grid_detection": {
+      "n_lat": 502,
+      "n_lon": 455,
+      "fill": 0.003940282824744976,
+      "regular": false
+    }
+  },
+  "error_vars": [
+    "temperature_2m_mean",
+    "relative_humidity_2m_mean",
+    "precipitation_sum",
+    "pressure_msl_mean",
+    "wind_speed_10m_mean",
+    "wind_gusts_10m_max",
+    "cloud_cover_mean"
+  ],
+  "error_stats": {
+    "temperature_2m_mean": {
+      "mean": 1.5795422047350012,
+      "std": 1.330131511198757
+    },
+    "relative_humidity_2m_mean": {
+      "mean": 9.014023574118912,
+      "std": 7.790478996448147
+    },
+    "precipitation_sum": {
+      "mean": 8.672754506322303,
+      "std": 15.906544192354353
+    },
+    "pressure_msl_mean": {
+      "mean": 3.55346901062685,
+      "std": 5.746415848277937
+    },
+    "wind_speed_10m_mean": {
+      "mean": 3.8413946450990943,
+      "std": 3.2942190097499635
+    },
+    "wind_gusts_10m_max": {
+      "mean": 11.327895345708903,
+      "std": 8.072868450756618
+    },
+    "cloud_cover_mean": {
+      "mean": 12.321879259707647,
+      "std": 14.276055102554308
+    }
+  },
+  "bust_quantile": 0.9,
+  "bust_thresholds": [
+    {
+      "zone": "major_city",
+      "lead_day": 1,
+      "thr": 0.5539678756048421
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 7,
+      "thr": 0.7522723435250869
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 4,
+      "thr": 0.6961779577454046
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 2,
+      "thr": 0.6188654358646081
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 5,
+      "thr": 0.7043089850333306
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 3,
+      "thr": 1.0990100314396782
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 6,
+      "thr": 0.2985864423796088
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 1,
+      "thr": 0.20972800597996585
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 3,
+      "thr": 0.22521008854251776
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 6,
+      "thr": 0.3551398053593601
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 6,
+      "thr": 1.1576122371722941
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 5,
+      "thr": 0.3433823915794461
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 2,
+      "thr": 0.256353331526291
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 1,
+      "thr": 0.0909187863818847
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 2,
+      "thr": 1.0058526338954106
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 3,
+      "thr": 0.2946384837483405
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 3,
+      "thr": 0.6745543872899905
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 1,
+      "thr": 0.9166012503180535
+    },
+    {
+      "zone": "major_city",
+      "lead_day": 6,
+      "thr": 0.7480612410147468
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 2,
+      "thr": 0.1743851661536581
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 7,
+      "thr": 0.33691268488866183
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 5,
+      "thr": 1.1362034711770659
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 4,
+      "thr": 0.339179356150476
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 4,
+      "thr": 1.1080738784300412
+    },
+    {
+      "zone": "mountain_north",
+      "lead_day": 7,
+      "thr": 1.1680078893601482
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 5,
+      "thr": 0.26228883943668474
+    },
+    {
+      "zone": "northeast",
+      "lead_day": 7,
+      "thr": 0.3694271227638355
+    },
+    {
+      "zone": "coastline",
+      "lead_day": 4,
+      "thr": 0.24562683881266772
+    }
+  ],
+  "feature_columns": [
+    "cloud_cover_high_mean_cyclechange",
+    "cloud_cover_high_mean_gfs",
+    "cloud_cover_low_mean_cyclechange",
+    "cloud_cover_low_mean_gfs",
+    "cloud_cover_mean_cyclechange",
+    "cloud_cover_mean_delta1",
+    "cloud_cover_mean_delta2",
+    "cloud_cover_mean_gfs",
+    "cloud_cover_mean_prev1",
+    "cloud_cover_mean_rollmean3",
+    "cloud_cover_mean_rollmean7",
+    "cloud_cover_mean_rollstd3",
+    "cloud_cover_mean_rollstd7",
+    "cloud_cover_mid_mean_cyclechange",
+    "cloud_cover_mid_mean_gfs",
+    "precipitation_sum_anomaly",
+    "precipitation_sum_cyclechange",
+    "precipitation_sum_delta1",
+    "precipitation_sum_delta2",
+    "precipitation_sum_gfs",
+    "precipitation_sum_localmean",
+    "precipitation_sum_localstd",
+    "precipitation_sum_neighbdisagree",
+    "precipitation_sum_prev1",
+    "precipitation_sum_rollmean3",
+    "precipitation_sum_rollmean7",
+    "precipitation_sum_rollstd3",
+    "precipitation_sum_rollstd7",
+    "pressure_msl_mean_anomaly",
+    "pressure_msl_mean_cyclechange",
+    "pressure_msl_mean_delta1",
+    "pressure_msl_mean_delta2",
+    "pressure_msl_mean_gfs",
+    "pressure_msl_mean_localmean",
+    "pressure_msl_mean_localstd",
+    "pressure_msl_mean_neighbdisagree",
+    "pressure_msl_mean_prev1",
+    "pressure_msl_mean_rollmean3",
+    "pressure_msl_mean_rollmean7",
+    "pressure_msl_mean_rollstd3",
+    "pressure_msl_mean_rollstd7",
+    "rain_sum_cyclechange",
+    "rain_sum_gfs",
+    "relative_humidity_2m_mean_anomaly",
+    "relative_humidity_2m_mean_cyclechange",
+    "relative_humidity_2m_mean_delta1",
+    "relative_humidity_2m_mean_delta2",
+    "relative_humidity_2m_mean_gfs",
+    "relative_humidity_2m_mean_localmean",
+    "relative_humidity_2m_mean_localstd",
+    "relative_humidity_2m_mean_neighbdisagree",
+    "relative_humidity_2m_mean_prev1",
+    "relative_humidity_2m_mean_rollmean3",
+    "relative_humidity_2m_mean_rollmean7",
+    "relative_humidity_2m_mean_rollstd3",
+    "relative_humidity_2m_mean_rollstd7",
+    "snowfall_sum_cyclechange",
+    "snowfall_sum_gfs",
+    "surface_pressure_mean_cyclechange",
+    "surface_pressure_mean_gfs",
+    "temperature_2m_max_cyclechange",
+    "temperature_2m_max_gfs",
+    "temperature_2m_mean_anomaly",
+    "temperature_2m_mean_cyclechange",
+    "temperature_2m_mean_delta1",
+    "temperature_2m_mean_delta2",
+    "temperature_2m_mean_gfs",
+    "temperature_2m_mean_localmean",
+    "temperature_2m_mean_localstd",
+    "temperature_2m_mean_neighbdisagree",
+    "temperature_2m_mean_prev1",
+    "temperature_2m_mean_rollmean3",
+    "temperature_2m_mean_rollmean7",
+    "temperature_2m_mean_rollstd3",
+    "temperature_2m_mean_rollstd7",
+    "temperature_2m_min_cyclechange",
+    "temperature_2m_min_gfs",
+    "wind100_u_mean_cyclechange",
+    "wind100_u_mean_gfs",
+    "wind100_v_mean_cyclechange",
+    "wind100_v_mean_gfs",
+    "wind10_u_mean_cyclechange",
+    "wind10_u_mean_gfs",
+    "wind10_v_mean_cyclechange",
+    "wind10_v_mean_gfs",
+    "wind_gusts_10m_max_cyclechange",
+    "wind_gusts_10m_max_gfs",
+    "wind_speed_100m_mean_cyclechange",
+    "wind_speed_100m_mean_gfs",
+    "wind_speed_10m_max_cyclechange",
+    "wind_speed_10m_max_gfs",
+    "wind_speed_10m_mean_anomaly",
+    "wind_speed_10m_mean_cyclechange",
+    "wind_speed_10m_mean_delta1",
+    "wind_speed_10m_mean_delta2",
+    "wind_speed_10m_mean_gfs",
+    "wind_speed_10m_mean_localmean",
+    "wind_speed_10m_mean_localstd",
+    "wind_speed_10m_mean_neighbdisagree",
+    "wind_speed_10m_mean_prev1",
+    "wind_speed_10m_mean_rollmean3",
+    "wind_speed_10m_mean_rollmean7",
+    "wind_speed_10m_mean_rollstd3",
+    "wind_speed_10m_mean_rollstd7"
+  ],
+  "n_rows": 1398600,
+  "leads": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

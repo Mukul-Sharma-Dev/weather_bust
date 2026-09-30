@@ -1,0 +1,1315 @@
+[
+  {
+    "init_date": "2025-08-18",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5703304409980774,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-18",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5790183544158936,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-18",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.612731397151947,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-19",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.9080988168716431,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "precipitation anomaly"
+    ]
+  },
+  {
+    "init_date": "2025-08-19",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5104774832725525,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-19",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5175639986991882,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-20",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5080898404121399,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-20",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.7311455607414246,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "precipitation anomaly"
+    ]
+  },
+  {
+    "init_date": "2025-08-20",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5134052634239197,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-21",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.6081387400627136,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-21",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.6006877422332764,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-21",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.6498950123786926,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-22",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.6781829595565796,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "wind change / disagreement"
+    ]
+  },
+  {
+    "init_date": "2025-08-22",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5416797399520874,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-22",
+    "point_id": 1,
+    "lead_day": 2,
+    "bust_probability": 0.6458925604820251,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-23",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5831143856048584,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-23",
+    "point_id": 1,
+    "lead_day": 2,
+    "bust_probability": 0.5344366431236267,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-23",
+    "point_id": 2,
+    "lead_day": 3,
+    "bust_probability": 0.5337854623794556,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-24",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5235155820846558,
+    "dominant_factors": [
+      "pressure tendency",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-24",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5147587060928345,
+    "dominant_factors": [
+      "pressure tendency",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-24",
+    "point_id": 1,
+    "lead_day": 5,
+    "bust_probability": 0.5154401063919067,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-25",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.500488817691803,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-25",
+    "point_id": 21,
+    "lead_day": 2,
+    "bust_probability": 0.6430534720420837,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "recent variability / historical error level",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-25",
+    "point_id": 22,
+    "lead_day": 2,
+    "bust_probability": 0.569427490234375,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-26",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5116328597068787,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-26",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.6125379800796509,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-26",
+    "point_id": 1,
+    "lead_day": 7,
+    "bust_probability": 0.5878592729568481,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-27",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5133183598518372,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-27",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5630992650985718,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-27",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.6050799489021301,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-28",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5297833681106567,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-28",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5437304377555847,
+    "dominant_factors": [
+      "pressure tendency",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-28",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5854413509368896,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-29",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5299083590507507,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-29",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5227723121643066,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-29",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.5786160826683044,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-30",
+    "point_id": 1,
+    "lead_day": 4,
+    "bust_probability": 0.5043206810951233,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-30",
+    "point_id": 2,
+    "lead_day": 6,
+    "bust_probability": 0.5111668705940247,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-30",
+    "point_id": 3,
+    "lead_day": 6,
+    "bust_probability": 0.5178465247154236,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-08-31",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.6031335592269897,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-31",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5407223701477051,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-08-31",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5115702152252197,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-01",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5305272936820984,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-01",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.6062716245651245,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-01",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5527628064155579,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-02",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.566098153591156,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-02",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5522884726524353,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-02",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.7908682823181152,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-03",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.6972184777259827,
+    "dominant_factors": [
+      "pressure tendency",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-03",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.6479968428611755,
+    "dominant_factors": [
+      "pressure tendency",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-03",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5548508763313293,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-04",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.6760991811752319,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-04",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.6382737159729004,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-04",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.6091961860656738,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-05",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5450642704963684,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-05",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.9294067621231079,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "recent variability / historical error level",
+      "precipitation anomaly"
+    ]
+  },
+  {
+    "init_date": "2025-09-05",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5540006756782532,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-06",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.9516608715057373,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "recent variability / historical error level",
+      "precipitation anomaly"
+    ]
+  },
+  {
+    "init_date": "2025-09-06",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.8315468430519104,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "recent variability / historical error level",
+      "precipitation anomaly"
+    ]
+  },
+  {
+    "init_date": "2025-09-06",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5731262564659119,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-07",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.638637363910675,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-07",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5653360486030579,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-07",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.6350904703140259,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-08",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5772461295127869,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-08",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5919533967971802,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-08",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5439645648002625,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-09",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5541818737983704,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-09",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.6260189414024353,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-09",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5333830118179321,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-10",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.592344343662262,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-10",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5255171060562134,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-10",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.586941123008728,
+    "dominant_factors": [
+      "pressure tendency",
+      "recent variability / historical error level",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-11",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5239652395248413,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-11",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5197330117225647,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-11",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5647907257080078,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-12",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5080724358558655,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-12",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5611189603805542,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-12",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5037962794303894,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-13",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5383827090263367,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-13",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5097799301147461,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-13",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5353249311447144,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-14",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5174353122711182,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-14",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5727970600128174,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-14",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.5670952796936035,
+    "dominant_factors": [
+      "pressure tendency",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-15",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.6213359832763672,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-15",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5817163586616516,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-15",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.5958818793296814,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-16",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5417922735214233,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-16",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5109789967536926,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-16",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5815586447715759,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-17",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5482133030891418,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-17",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5686683654785156,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-17",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.6145433783531189,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-18",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5171689987182617,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-18",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5502142310142517,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-18",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5710820555686951,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-19",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5072740316390991,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-19",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5132955312728882,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-19",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5943009257316589,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-20",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5375831723213196,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-20",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5467278957366943,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-20",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5148981213569641,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-21",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5695304870605469,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-21",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5308119654655457,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-21",
+    "point_id": 0,
+    "lead_day": 7,
+    "bust_probability": 0.6237531900405884,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-22",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5620181560516357,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-22",
+    "point_id": 0,
+    "lead_day": 5,
+    "bust_probability": 0.5042194724082947,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-22",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5539608597755432,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-23",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5033313035964966,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-23",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5636838674545288,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-23",
+    "point_id": 0,
+    "lead_day": 4,
+    "bust_probability": 0.5293831825256348,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-24",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5414067506790161,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-24",
+    "point_id": 0,
+    "lead_day": 3,
+    "bust_probability": 0.5368160009384155,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-24",
+    "point_id": 0,
+    "lead_day": 6,
+    "bust_probability": 0.5247688293457031,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "cloud_cover_mean_gfs"
+    ]
+  },
+  {
+    "init_date": "2025-09-25",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5453876852989197,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-25",
+    "point_id": 1,
+    "lead_day": 2,
+    "bust_probability": 0.5368407368659973,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-25",
+    "point_id": 1,
+    "lead_day": 3,
+    "bust_probability": 0.5042615532875061,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-26",
+    "point_id": 0,
+    "lead_day": 1,
+    "bust_probability": 0.5087537169456482,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-26",
+    "point_id": 0,
+    "lead_day": 2,
+    "bust_probability": 0.5870116949081421,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  },
+  {
+    "init_date": "2025-09-26",
+    "point_id": 1,
+    "lead_day": 2,
+    "bust_probability": 0.5878623723983765,
+    "dominant_factors": [
+      "pressure tendency",
+      "humidity anomaly",
+      "temperature tendency"
+    ]
+  }
+]
